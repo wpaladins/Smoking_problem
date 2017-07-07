@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>head.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -88,19 +91,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\somker_wait.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\agent_wait.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\put.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ready.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="head.ico" />
     <None Include="Resources\smoking.png" />
+    <None Include="Resources\put.png" />
+    <None Include="Resources\somker_wait.png" />
+    <None Include="Resources\ready.png" />
+    <None Include="Resources\agent_wait.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
